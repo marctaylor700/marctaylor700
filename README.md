@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="https://github.com/marctaylor700/marctaylor700/raw/main/assets/github.gif" alt="Hi, I'm Marc 👋 I'm an 🚀 SDET based in Arizona 🚀 I ❤️ automation ❤️">
-</p>
+<h1 align="center">Hi, I'm marc. I'm a SDET based in Phoenix, Arizona </h1>
 
-
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=marctaylor700" alt="marctaylor700" /></a> </p>
 
 
 
