@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm marc</h1>
-<h3 align="center">A developer from PHX, AZ</h3>
+<h3 align="center">A developer from AZ</h3>
 
 
 &nbsp;
