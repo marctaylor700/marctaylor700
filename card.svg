@@ -1,41 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="923" height="390" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">
-<style>text{white-space:pre}.a{fill:#c9d1d9}.h{fill:#f0f6fc;font-weight:bold}.k{fill:#ffa657}.d{fill:#484f58}.v{fill:#a5d6ff}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="636" height="364" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">
+<style>text{white-space:pre;animation:recoil 12.8s ease-out infinite}
+.h{fill:#f0f6fc;font-weight:bold}.k{fill:#ffa657}.d{fill:#484f58}.v{fill:#a5d6ff}
+.ship{animation:patrol 12.8s step-end infinite}
+.f1,.f2{animation:legs 0.8s step-end infinite}.f2{opacity:0;animation-delay:-0.4s}
+.shot{animation:shot 0.8s linear infinite}.spark{opacity:0;animation:spark 0.8s linear infinite}
+@keyframes patrol{0%{transform:translateY(0px)}6.25%{transform:translateY(18px)}12.5%{transform:translateY(36px)}18.75%{transform:translateY(54px)}25%{transform:translateY(72px)}31.25%{transform:translateY(90px)}37.5%{transform:translateY(108px)}43.75%{transform:translateY(126px)}50%{transform:translateY(144px)}56.25%{transform:translateY(180px)}62.5%{transform:translateY(198px)}68.75%{transform:translateY(234px)}75%{transform:translateY(252px)}81.25%{transform:translateY(270px)}87.5%{transform:translateY(288px)}93.75%{transform:translateY(306px)}}
+@keyframes legs{0%{opacity:1}50%{opacity:0}}
+@keyframes shot{70%{transform:translateX(53px);opacity:1}71%,100%{transform:translateX(53px);opacity:0}}
+@keyframes spark{0%,69%{opacity:0}72%{opacity:1}100%{opacity:0}}
+@keyframes recoil{0%{transform:translateX(7px);opacity:.35}3.12%,100%{transform:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
 <rect width="100%" height="100%" rx="10" fill="#161b22"/>
-<text x="20" y="32" class="a">          `j@@@@@@M@@@@@M@M@@@M%M%@@@@@@%kg%Mk</text>
-<text x="20" y="50" class="a">-:.         ~k@@@@@@@@@@@@@@@MM@@@@@@M%kkk%%%g</text>
-<text x="20" y="68" class="a">``..          ;g@@@@@@@@@@@MM@@@@@M%%%kkk%%%%k</text>
-<text x="20" y="86" class="a">                `;*M@@@@@@@@@@@M%M%%M%gkk%kkkj</text>
-<text x="20" y="104" class="a">  ...  .  .. .`.    ;%@@@@@@@MM%M@Mk%%k%%%%MMg</text>
-<text x="20" y="122" class="a">  `-;~==;;~;-``:      *@@@@MM@M%MMM%%%%%%%%j~;</text>
-<text x="20" y="140" class="a">..``:;~+*jjj*:   :    :@@@@MMMMMMMMM@@MMM%*~;-</text>
-<text x="20" y="158" class="a">  .``:--;~+*+-`.    ` :@@@@@@@@@@@@@%kM%j;-;--</text>
-<text x="20" y="176" class="a">   .``:::-;~;-`..     .M@@@@@@@@MM@M%kM*------</text>
-<text x="20" y="194" class="a"> . ..``------::.       `k@@@@@@@@@@MMk*=--;;-`</text>
-<text x="20" y="212" class="a">     ..``:::`..          ;g@@@@@@@@@%==+=;;-..</text>
-<text x="20" y="230" class="a">                           ~@@@@@@Mg~;~=;`. .`</text>
-<text x="20" y="248" class="a">                            ;M@@@j-~+*=;`   ..</text>
-<text x="20" y="266" class="a">                             .M@g==*=;``--:`</text>
-<text x="20" y="284" class="a">                             .*j+===;:`.```. .</text>
-<text x="20" y="302" class="a">                            **~~;:. .``..</text>
-<text x="20" y="320" class="a">                   .;=...``=;:::.   .     ..</text>
-<text x="20" y="338" class="a">               :-~+ggj=--;;=.</text>
-<text x="20" y="356" class="a">             .-~;;:.                     `. .-</text>
-<text x="20" y="374" class="a">          .``.                        .``;**++</text>
-<text x="417" y="32"><tspan class="h">marctaylor700@github</tspan> ───────────────────────────────────────</text>
-<text x="417" y="50"><tspan class="k">OS</tspan>: <tspan class="d">..................................................</tspan> <tspan class="v">macOS</tspan></text>
-<text x="417" y="68"><tspan class="k">Shell</tspan>: <tspan class="d">.................................................</tspan> <tspan class="v">zsh</tspan></text>
-<text x="417" y="86"><tspan class="k">Uptime</tspan>: <tspan class="d">.......................</tspan> <tspan class="v">12 years, 7 months on GitHub</tspan></text>
-<text x="417" y="104"><tspan class="k">Host</tspan>: <tspan class="d">...............................................</tspan> <tspan class="v">eVisit</tspan></text>
-<text x="417" y="122"><tspan class="k">Location</tspan>: <tspan class="d">..........................................</tspan> <tspan class="v">Arizona</tspan></text>
-<text x="417" y="140"><tspan class="k">Languages</tspan>: <tspan class="d">.......</tspan> <tspan class="v">Ruby, TypeScript, Python, JavaScript, Vue</tspan></text>
-<text x="417" y="158"><tspan class="k">Bio</tspan>: <tspan class="d">....</tspan> <tspan class="v">green was for the money and gold was for the honey</tspan></text>
-<text x="417" y="176"></text>
-<text x="417" y="194"><tspan class="h">Contact</tspan> ────────────────────────────────────────────────────</text>
-<text x="417" y="212"><tspan class="k">GitHub</tspan>: <tspan class="d">...........................</tspan> <tspan class="v">github.com/marctaylor700</tspan></text>
-<text x="417" y="230"></text>
-<text x="417" y="248"><tspan class="h">GitHub Stats</tspan> ───────────────────────────────────────────────</text>
-<text x="417" y="266"><tspan class="k">Repos</tspan>: <tspan class="d">.................................</tspan> <tspan class="v">34 (Contributed: 9)</tspan></text>
-<text x="417" y="284"><tspan class="k">Stars</tspan>: <tspan class="d">...................................................</tspan> <tspan class="v">1</tspan></text>
-<text x="417" y="302"><tspan class="k">Followers</tspan>: <tspan class="d">...............................................</tspan> <tspan class="v">4</tspan></text>
-<text x="417" y="320"><tspan class="k">Contributions</tspan>: <tspan class="d">.......................................</tspan> <tspan class="v">7,841</tspan></text>
+<g transform="translate(20 20)"><g class="ship" fill="#3fb950" shape-rendering="crispEdges">
+<path class="f1" d="M6 0h3v3h-3zM24 0h3v3h-3zM9 3h3v3h-3zM21 3h3v3h-3zM6 6h3v3h-3zM9 6h3v3h-3zM12 6h3v3h-3zM15 6h3v3h-3zM18 6h3v3h-3zM21 6h3v3h-3zM24 6h3v3h-3zM3 9h3v3h-3zM6 9h3v3h-3zM12 9h3v3h-3zM15 9h3v3h-3zM18 9h3v3h-3zM24 9h3v3h-3zM27 9h3v3h-3zM0 12h3v3h-3zM3 12h3v3h-3zM6 12h3v3h-3zM9 12h3v3h-3zM12 12h3v3h-3zM15 12h3v3h-3zM18 12h3v3h-3zM21 12h3v3h-3zM24 12h3v3h-3zM27 12h3v3h-3zM30 12h3v3h-3zM0 15h3v3h-3zM6 15h3v3h-3zM9 15h3v3h-3zM12 15h3v3h-3zM15 15h3v3h-3zM18 15h3v3h-3zM21 15h3v3h-3zM24 15h3v3h-3zM30 15h3v3h-3zM0 18h3v3h-3zM6 18h3v3h-3zM24 18h3v3h-3zM30 18h3v3h-3zM9 21h3v3h-3zM12 21h3v3h-3zM18 21h3v3h-3zM21 21h3v3h-3z"/><path class="f2" d="M6 0h3v3h-3zM24 0h3v3h-3zM0 3h3v3h-3zM9 3h3v3h-3zM21 3h3v3h-3zM30 3h3v3h-3zM0 6h3v3h-3zM6 6h3v3h-3zM9 6h3v3h-3zM12 6h3v3h-3zM15 6h3v3h-3zM18 6h3v3h-3zM21 6h3v3h-3zM24 6h3v3h-3zM30 6h3v3h-3zM0 9h3v3h-3zM3 9h3v3h-3zM6 9h3v3h-3zM12 9h3v3h-3zM15 9h3v3h-3zM18 9h3v3h-3zM24 9h3v3h-3zM27 9h3v3h-3zM30 9h3v3h-3zM0 12h3v3h-3zM3 12h3v3h-3zM6 12h3v3h-3zM9 12h3v3h-3zM12 12h3v3h-3zM15 12h3v3h-3zM18 12h3v3h-3zM21 12h3v3h-3zM24 12h3v3h-3zM27 12h3v3h-3zM30 12h3v3h-3zM3 15h3v3h-3zM6 15h3v3h-3zM9 15h3v3h-3zM12 15h3v3h-3zM15 15h3v3h-3zM18 15h3v3h-3zM21 15h3v3h-3zM24 15h3v3h-3zM27 15h3v3h-3zM6 18h3v3h-3zM24 18h3v3h-3zM3 21h3v3h-3zM27 21h3v3h-3z"/>
+<rect class="shot" x="37" y="10.5" width="8" height="3" fill="#f0f6fc"/>
+<rect class="spark" x="100" y="6.5" width="3" height="11" fill="#ffa657"/>
+</g></g>
+<text x="130" y="36" style="animation-delay:0.56s"><tspan class="h">marctaylor700@github</tspan> ───────────────────────────────────────</text>
+<text x="130" y="54" style="animation-delay:1.36s"><tspan class="k">OS</tspan>: <tspan class="d">..................................................</tspan> <tspan class="v">macOS</tspan></text>
+<text x="130" y="72" style="animation-delay:2.16s"><tspan class="k">Shell</tspan>: <tspan class="d">.................................................</tspan> <tspan class="v">zsh</tspan></text>
+<text x="130" y="90" style="animation-delay:2.96s"><tspan class="k">Uptime</tspan>: <tspan class="d">.......................</tspan> <tspan class="v">12 years, 7 months on GitHub</tspan></text>
+<text x="130" y="108" style="animation-delay:3.76s"><tspan class="k">Host</tspan>: <tspan class="d">...............................................</tspan> <tspan class="v">eVisit</tspan></text>
+<text x="130" y="126" style="animation-delay:4.56s"><tspan class="k">Location</tspan>: <tspan class="d">..........................................</tspan> <tspan class="v">Arizona</tspan></text>
+<text x="130" y="144" style="animation-delay:5.36s"><tspan class="k">Languages.Top</tspan>: <tspan class="d">...</tspan> <tspan class="v">TypeScript, Python, C++, JavaScript, Ruby</tspan></text>
+<text x="130" y="162" style="animation-delay:6.16s"><tspan class="k">Languages.More</tspan>: <tspan class="d">...................</tspan> <tspan class="v">C, HTML, Vue, Shell, CSS</tspan></text>
+<text x="130" y="180" style="animation-delay:6.96s"><tspan class="k">Bio</tspan>: <tspan class="d">....</tspan> <tspan class="v">green was for the money and gold was for the honey</tspan></text>
+<text x="130" y="216" style="animation-delay:7.76s"><tspan class="h">Contact</tspan> ────────────────────────────────────────────────────</text>
+<text x="130" y="234" style="animation-delay:8.56s"><tspan class="k">GitHub</tspan>: <tspan class="d">...........................</tspan> <tspan class="v">github.com/marctaylor700</tspan></text>
+<text x="130" y="270" style="animation-delay:9.36s"><tspan class="h">GitHub Stats</tspan> ───────────────────────────────────────────────</text>
+<text x="130" y="288" style="animation-delay:10.16s"><tspan class="k">Repos</tspan>: <tspan class="d">.................................</tspan> <tspan class="v">40 (Contributed: 9)</tspan></text>
+<text x="130" y="306" style="animation-delay:10.96s"><tspan class="k">Stars</tspan>: <tspan class="d">...................................................</tspan> <tspan class="v">1</tspan></text>
+<text x="130" y="324" style="animation-delay:11.76s"><tspan class="k">Followers</tspan>: <tspan class="d">...............................................</tspan> <tspan class="v">4</tspan></text>
+<text x="130" y="342" style="animation-delay:12.56s"><tspan class="k">Contributions</tspan>: <tspan class="d">.......................................</tspan> <tspan class="v">7,841</tspan></text>
 </svg>
