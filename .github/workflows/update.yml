@@ -15,8 +15,9 @@ jobs:
       - uses: actions/checkout@v4
       - run: python3 update.py
         env:
-          # STATS_TOKEN (optional repo secret) lets the card count private repos and contributions.
-          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+          # Required repo secret. No fallback to github.token: that token only sees public data,
+          # so a missing secret would quietly overwrite the card with near-empty stats.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
       - run: |
           git add card.svg
           git diff --cached --quiet && exit 0
